@@ -62,3 +62,8 @@ line 13:
                                     <em>{category} </em>
                                 </p>
                             ))}
+
+
+src/app/api/users/route.js: 
+
+import { Users } from "@/models/users";
