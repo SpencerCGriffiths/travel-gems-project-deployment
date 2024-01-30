@@ -39,12 +39,12 @@ Travel Gems is designed to be a dynamic and user-friendly platform for travelers
 ## Contributors
 Travel Gems is a group project built as a part of the Northcoders bootcamp. The contributors and associated Github accounts are: 
 
-**Spencer Clarke-Griffiths**: SpencerCGriffiths
-**Dominique Anekore**: ultacc  /  DominiqueCoding
-**Hala Hassan**: hala-jash
-**Josh Holt**: theRohirrim
-**May Hoang**: mxy-1 
-**Winnie Kwok**: 404-pending
+- **Spencer Clarke-Griffiths**: SpencerCGriffiths
+- **Dominique Anekore**: ultacc  /  DominiqueCoding
+- **Hala Hassan**: hala-jash
+- **Josh Holt**: theRohirrim
+- **May Hoang**: mxy-1 
+- **Winnie Kwok**: 404-pending
 
 ## Technology Stack
 
