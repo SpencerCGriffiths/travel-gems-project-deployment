@@ -34,3 +34,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+Changes: 
+
+combined .env and added: 
+
+MONGODB_URI='mongodb+srv://jholt55:9WzDCxNyeT25pYRy@dev-cluster.viquvxf.mongodb.net/TravelGemsDB?retryWrites=true&w=majority'
+
+./src/components/location/locationCard/LocationCard.jsx: 
+line 59: 
+                    {location.categories.map((category, index) => (
+                            <p key={`${category}-${index}`} className="badge badge-neutral">
+                                <em>{category}</em>
+                            </p>
+                            ))}
+
+./src/components/profile/Locations/Locations.jsx
+line 24: 
+            <Link href="/register">Don&apos;t have an account? <b>Register</b></Link>
+
+
+./src/components/loginForm/LoginForm.jsx
+line 13: 
+                            {location.categories.map((category, index) => (
+                                <p key={`${category}-${index}`} className="badge badge-neutral">
+                                    <em>{category} </em>
+                                </p>
+                            ))}

@@ -56,10 +56,10 @@ const LocationCard = async ({location, user}) => {
 
 
                     <div className="flex flex-col justify-evenly gap-4 sm:flex-row sm:gap-8">
-                        {location.categories.map(category => (
-                                    <p className="badge badge-neutral ">
-                                        <em>{category} </em>
-                                    </p>
+                    {location.categories.map((category, index) => (
+                            <p key={`${category}-${index}`} className="badge badge-neutral">
+                                <em>{category}</em>
+                            </p>
                         ))}
                     </div>
 

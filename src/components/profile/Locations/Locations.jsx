@@ -10,8 +10,8 @@ const Locations = ({ locations }) => {
                             <h2 className="card-title text-sm absolute top-3 left-3 right-3 text-gray-800 bg-white bg-opacity-75 p-4 rounded-lg">{location.place_name}</h2>
                             <p>{location.description}</p>
                             <p>{location.rating} rating</p>
-                            {location.categories.map(category => (
-                                <p className="badge badge-neutral">
+                            {location.categories.map((category, index) => (
+                                <p key={`${category}-${index}`} className="badge badge-neutral">
                                     <em>{category} </em>
                                 </p>
                             ))}
