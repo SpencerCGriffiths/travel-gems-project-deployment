@@ -40,24 +40,31 @@ Travel Gems is designed to be a dynamic and user-friendly platform for travelers
 Travel Gems is a group project built as a part of the Northcoders bootcamp. The contributors are: 
 
 Spencer Clarke-Griffiths
+
 Github: SpencerCGriffiths
 
-Dominique 
+Dominique Anekore -
+
 Github: ultacc
+
 Github: DominiqueCoding
 
-Hala 
+Hala Hassan 
+
 Github: hala-jash
 
 
 Josh Holt
+
 Github:theRohirrim
 
 
 May Hoang
+
 Github: mxy-1 
 
 Winnie Kwok
+
 Github: 	
 
 
@@ -94,7 +101,8 @@ This stack encompasses a comprehensive set of tools and libraries that contribut
 
 ## Where can i access travel Gems?
 
-- Hosted Online Version: 
+- Hosted Online Version:
+
 https://travel-gems-project-deployment.vercel.app/explore
 
 - Forked Repo for hosting: 
